@@ -31,7 +31,7 @@ $msg .= "Browser info : ".$_SERVER["HTTP_USER_AGENT"]."\r\n";
 $msg .= "User come from : ".$_SERVER["SERVER_NAME"]."\r\n";
 $msg .= "Template Name : THEBOOK VCARD";
 
-$recipient = "support@mutationmedia.net";// Change the recipient email adress to your adrees  
+$recipient = "bharmal.burhan@hotmail.com";// Change the recipient email adress to your adrees  
 $sujet =  "Sender information";
 $mailheaders = "From: $email\r\nReply-To: $email\r\nReturn-Path: $email\r\n";
 
