@@ -1431,6 +1431,13 @@ span.meta-date {
   white-space: nowrap;
 }
 
+.show-on-web {
+  display: block;
+}
+.show-on-mobile {
+  display: none;
+}
+
 /** End footer **/
 
 /** Media queries **/
@@ -1438,6 +1445,10 @@ span.meta-date {
 @media screen and (max-width: 1366px) {
   .block-nav-work li a {
     padding: 30px 56px;
+  }
+
+  .show-on-mobile {
+    display: none;
   }
 }
 
@@ -1615,6 +1626,11 @@ span.meta-date {
   .block-info .col-md-4:not(:last-child) {
     margin-bottom: 30px;
   }
+  .mt-150,
+  .mb-150 {
+    margin-bottom: 0 !important;
+    margin-top: 20px !important;
+  }
   .show-on-web {
     display: block;
   }
@@ -1712,24 +1728,23 @@ span.meta-date {
     right: -42px;
   }
   .footer {
-    position: absolute;
-    top: -41px;
-    z-index: 10;
-    right: 0px;
+    margin-top: 30px;
+  }
+  .footer .col-md-1 {
+    padding: 0 !important;
+  }
+  .footer .pd-l0 {
+    padding: 0 !important;
   }
   .footer .social {
-    float: left;
-    margin-left: 0;
-  }
-  .footer .social li {
-    float: left;
-    margin-left: 1px;
+    display: none;
   }
   .footer .copyright {
-    float: left;
+    float: none;
     margin-left: 1px;
     -webkit-transform: none;
     transform: none;
+    text-align: center;
   }
   .listing a.btn-2 {
     right: 14%;
@@ -1770,6 +1785,11 @@ span.meta-date {
   .block-info .col-md-4:not(:last-child) {
     margin-bottom: 30px;
   }
+  .mt-150,
+  .mb-150 {
+    margin-bottom: 30px !important;
+    margin-top: 20px !important;
+  }
   .show-on-web {
     display: block;
   }
@@ -1786,6 +1806,7 @@ span.meta-date {
   }
   .container {
     position: relative;
+    width: auto;
   }
   .content {
     padding: 100px 40px;
@@ -1926,25 +1947,22 @@ span.meta-date {
   .services .block-service .col-sm-6:last-child {
     padding-bottom: 0;
   }
-  .footer {
-    position: absolute;
-    top: -41px;
-    z-index: 10;
-    right: 0px;
+  .footer .col-md-1 {
+    padding: 0 !important;
+  }
+  .footer .pd-l0 {
+    padding: 0 !important;
   }
   .footer .social {
-    float: left;
-    margin-left: 0;
-  }
-  .footer .social li {
-    float: left;
-    margin-left: 1px;
+    display: none;
   }
   .footer .copyright {
-    float: left;
+    float: none;
     margin-left: 1px;
     -webkit-transform: none;
     transform: none;
+    margin-top: 30px;
+    text-align: center;
   }
   .listing a.btn-2,
   .listing a.btn-1,
@@ -2011,6 +2029,11 @@ span.meta-date {
   }
   .block-info .col-md-4:not(:last-child) {
     margin-bottom: 30px;
+  }
+  .mt-150,
+  .mb-150 {
+    margin-bottom: 0 !important;
+    margin-top: 20px !important;
   }
   .show-on-web {
     display: block;
@@ -2186,12 +2209,12 @@ span.meta-date {
   .block-quote {
     padding: 20px;
   }
-  /* .footer {
-    position: absolute;
-    top: -41px;
-    z-index: 10;
-    right: 0px;
-  } */
+  .footer .col-md-1 {
+    padding: 0 !important;
+  }
+  .footer .pd-l0 {
+    padding: 0 !important;
+  }
   .footer .social {
     display: none;
   }
