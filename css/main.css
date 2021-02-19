@@ -430,8 +430,12 @@ img.signature {
 .listing a {
   font-size: 14px;
   font-weight: 700;
-  position: absolute;
-  bottom: -25px;
+  /* position: absolute;
+  bottom: -25px; */
+}
+
+.listing--small {
+  padding: 20px 0;
 }
 
 .listing a:hover {
