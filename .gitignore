@@ -1,3 +1,4 @@
 .DS_Store
 THEBOOK
 .vercel
+node_modules
