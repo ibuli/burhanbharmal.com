@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "burhanbharmal-www-redirect",
+  "account_id": "07683cf2c917d27c3f30821bcd57d705",
+  "main": "src/redirect.ts",
+  "compatibility_date": "2026-11-22",
+  "workers_dev": false,
+  "routes": [{ "pattern": "www.burhanbharmal.com", "custom_domain": true }],
+  "observability": { "enabled": true, "head_sampling_rate": 1 },
+}

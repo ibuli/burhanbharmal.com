@@ -1,3 +1,36 @@
 .DS_Store
 THEBOOK
 .vercel
+node_modules/
+dist/
+.research/
+.wrangler/
+.tanstack/
+src/generated/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+!.env.example
+
+# Local credentials and private key material never belong in the public source.
+.aws/
+.ssh/
+*.key
+*.pem
+*.p12
+*.pfx
+*.keystore
+id_rsa
+id_ed25519
+
+# Retired resume contains personal contact details; publish a reviewed replacement separately.
+/Burhan_Bharmal.pdf
+/public/Burhan_Bharmal.pdf
+
+.impeccable/review/
+.impeccable/mocks/
+
+# Social cards are rebuilt from current published content.
+/public/assets/social/

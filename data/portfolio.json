@@ -1,0 +1,284 @@
+{
+  "name": "Burhan Bharmal",
+  "role": "Lead Engineer",
+  "company": "Sequoia Group",
+  "location": "Bengaluru, India",
+  "email": "bharmal.burhan@hotmail.com",
+  "github": "https://github.com/ibuli",
+  "linkedin": "https://www.linkedin.com/in/iburhan/",
+  "updated": "2026-11-21",
+  "skills": {
+    "Frontend": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "HTML",
+      "CSS",
+      "Angular",
+      "Tailwind CSS"
+    ],
+    "Systems & tooling": [
+      "Redux",
+      "Styled Components",
+      "Module Federation",
+      "Webpack",
+      "Node.js",
+      "Express",
+      "Python"
+    ],
+    "Practice": [
+      "Frontend architecture",
+      "Component libraries",
+      "Accessibility",
+      "Performance",
+      "Mentoring",
+      "AI-assisted development"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Sequoia Group",
+      "role": "Lead Engineer",
+      "start": "Jul 2026",
+      "date": "Jul 2026 - Present",
+      "location": "Bengaluru, India",
+      "current": true,
+      "description": "Leading frontend engineering initiatives to build scalable, accessible, high-quality user experiences. Partnering with product, design, and engineering to shape technical direction and deliver reliable solutions.",
+      "details": [
+        "Drive frontend architecture and technical decisions.",
+        "Mentor engineers and support their growth.",
+        "Establish development standards and best practices.",
+        "Collaborate across teams to deliver complex projects.",
+        "Improve performance, accessibility, and developer experience."
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Tailwind CSS",
+        "Python"
+      ]
+    },
+    {
+      "company": "Sequoia Group",
+      "role": "Senior Frontend Engineer",
+      "start": "Jul 2024",
+      "date": "Started Jul 2024",
+      "location": "Bengaluru, India",
+      "description": "Building intuitive, dynamic web experiences with a focus on interfaces that look good, feel good, and work reliably.",
+      "details": [
+        "Develop user-facing experiences with React, Next.js, TypeScript, and Redux.",
+        "Collaborate on interface quality, usability, and frontend delivery."
+      ],
+      "skills": ["React", "TypeScript", "Next.js", "Redux", "Tailwind CSS"]
+    },
+    {
+      "company": "Sequoia Group",
+      "role": "SDE II | Frontend Engineer",
+      "start": "Jul 2022",
+      "date": "Started Jul 2022",
+      "location": "Remote",
+      "description": "Working on in-house products, shared component libraries, theming, and micro frontend architecture.",
+      "details": [
+        "Build products with React, Styled Components, and Redux.",
+        "Create and enhance reusable components in a shared component library.",
+        "Implement theming across products.",
+        "Work with Module Federation for micro frontend architecture."
+      ],
+      "skills": ["React", "Styled Components", "Redux", "Module Federation"]
+    },
+    {
+      "company": "Sequoia Group",
+      "role": "Frontend Engineer",
+      "start": "Jun 2021",
+      "date": "Started Jun 2021",
+      "location": "Bangalore",
+      "description": "Joined Sequoia as a Frontend Engineer.",
+      "details": [],
+      "skills": []
+    },
+    {
+      "company": "200OK Solutions",
+      "role": "MEAN Stack Developer",
+      "start": "Jul 2017",
+      "date": "Jul 2017 - Jun 2021",
+      "location": "Ahmedabad, India",
+      "description": "Developing web experiences and configurable hotel booking engines with JavaScript, React, Angular, and Node.js.",
+      "details": [
+        "Port jQuery applications to React and vanilla JavaScript.",
+        "Animate React components with React Motion and manage state with Baobab.",
+        "Implement smooth transitions between widget layouts.",
+        "Integrate booking engines using event listeners, analytics events, Mutation Observers, API listeners, and browser history.",
+        "Rebuild an application using React Hooks, Suspense, Webpack, Redux, Redux-Saga, WebSockets, and React Router.",
+        "Build configurable Angular booking pages for hotel customers.",
+        "Manage projects, collaborate with teammates, and help clients deliver their vision."
+      ],
+      "skills": ["React", "Angular", "AngularJS", "Node.js", "jQuery", "Redux"]
+    },
+    {
+      "company": "iFlare Web Technologies",
+      "role": "Full-Stack Developer",
+      "start": "Apr 2017",
+      "date": "Apr 2017 - Jun 2017",
+      "location": "Ahmedabad, India",
+      "description": "Developed a mobile application interface using Ionic Framework v1.",
+      "details": ["Implemented a UI screen for a mobile application using Ionic Framework v1."],
+      "skills": ["Ionic", "FeathersJS", "Express", "Node.js", "AngularJS"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Ahmedabad Institute of Technology",
+      "degree": "Bachelor of Engineering, Computer Engineering",
+      "date": "2014 - 2017"
+    },
+    {
+      "school": "Balaji Institute of Engineering and Technology",
+      "degree": "Diploma, Computer Engineering",
+      "date": "2011 - 2014"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Master the Model Context Protocol (MCP)",
+      "issuer": "Epic AI",
+      "date": "Nov 2025",
+      "credentialUrl": "https://res.cloudinary.com/epic-web/image/upload/v1763815639/certificate/449f0012-e7f6-4383-b671-9dcb41f05738/master-mcp.png"
+    },
+    {
+      "title": "React Fundamentals",
+      "issuer": "EpicReact.dev",
+      "date": "Feb 2025",
+      "credentialUrl": "https://res.cloudinary.com/epic-web/image/upload/v1740116231/certificate/6ee1f154-8a5e-407c-a8e4-d429873ebd30/react-fundamentals-v1.png"
+    },
+    {
+      "title": "React Query",
+      "issuer": "ui.dev",
+      "date": "Feb 2025",
+      "credentialUrl": "https://ui.dev/certificate/query/dDSmrQXRXkPyXXRWTLsAGU9OXfh2"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Arkive",
+      "slug": "arkive",
+      "category": "Productivity",
+      "description": "A local-first home for bookmarks, notes, and RSS feeds. Save what matters, then find it again.",
+      "image": "arkive-cover.png",
+      "icon": "arkive.png",
+      "alt": "Arkive’s actual dashboard with RSS reader, notes, and bookmarks",
+      "url": "/work/arkive",
+      "stack": ["React", "TypeScript", "Cloudflare"],
+      "gallery": [
+        "/assets/projects/arkive-0.png",
+        "/assets/projects/arkive-1.png",
+        "/assets/projects/arkive-2.png",
+        "/assets/projects/arkive-3.svg"
+      ],
+      "caseStudy": {
+        "role": "Product development and frontend engineering",
+        "kind": "Independent product",
+        "focus": "Local-first organization, search, and connected workflows",
+        "outcome": "A working home for bookmarks, notes, and RSS feeds."
+      }
+    },
+    {
+      "name": "Profile Pilot",
+      "slug": "profile-pilot-for-antigravity",
+      "category": "Developer tools",
+      "description": "Switch Google Antigravity accounts in one click and keep an eye on your AI model quotas.",
+      "image": "pilot-cover.png",
+      "icon": "pilot.png",
+      "alt": "Profile Pilot’s actual account switching and model quota interface",
+      "url": "/work/profile-pilot-for-antigravity",
+      "stack": ["TypeScript", "Node.js", "JavaScript"],
+      "gallery": ["/assets/projects/profile-pilot-for-antigravity-0.png"],
+      "caseStudy": {
+        "role": "Extension development",
+        "kind": "Independent, open-source developer tool",
+        "focus": "Account switching, quota visibility, and IDE/app session sync",
+        "outcome": "A published extension with local profiles and one-click account switching."
+      }
+    },
+    {
+      "name": "SmartScout",
+      "slug": "smartscout--your-ondevice-ai-sidekick",
+      "category": "On-device AI",
+      "description": "A Chrome extension exploring built-in browser AI for translation, writing, and summaries.",
+      "image": "smartscout.jpg",
+      "icon": "smartscout.jpg",
+      "alt": "SmartScout project artwork from the Google Chrome Built-in AI Challenge",
+      "url": "/work/smartscout--your-ondevice-ai-sidekick",
+      "stack": ["Chrome AI", "JavaScript"],
+      "gallery": ["/assets/projects/smartscout--your-ondevice-ai-sidekick-0.jpg"]
+    },
+    {
+      "name": "Worst Place to Work",
+      "slug": "worst-place-to-work",
+      "category": "Community",
+      "description": "A space for anonymous workplace stories and honest career experiences.",
+      "icon": "worst-place.jpg",
+      "url": "/work/worst-place-to-work",
+      "stack": ["AI", "Social networking"],
+      "gallery": ["/assets/projects/worst-place-to-work-0.jpg"]
+    },
+    {
+      "name": "UI Interaction Studies",
+      "slug": "interaction-studies",
+      "category": "Interaction design",
+      "description": "Five days of building and refining small, expressive web interactions.",
+      "icon": "../projects/interaction-studies-demo.jpg",
+      "url": "/work/interaction-studies",
+      "stack": ["Micro-interactions", "Frontend"],
+      "gallery": ["/assets/projects/interaction-studies-demo.jpg"]
+    }
+  ],
+  "careerHighlights": [
+    {
+      "company": "Sequoia Group",
+      "period": "Jun 2021 - Present",
+      "description": "Product development and frontend architecture across theming, compensation workflows, and a micro frontend environment.",
+      "details": [
+        "Built a theming feature in an existing product so users could customize hyperlinks, buttons, font icons, and fonts.",
+        "Worked with the Compensation Foundation team and built a set of modules for Comp OS.",
+        "Set up a test framework across 13 micro frontends.",
+        "Developed a Tailwind prefixing solution for the frontend environment.",
+        "Reworked navigation to support different product experiences and micro frontends using established industry practices."
+      ]
+    },
+    {
+      "company": "200OK Solutions",
+      "period": "Jul 2017 - Jun 2021",
+      "description": "Application modernization and configurable hotel-booking experiences, alongside project coordination and client collaboration.",
+      "details": [
+        "Completed the migration of a jQuery project to React and vanilla JavaScript.",
+        "Built smooth transitions between widget layouts, with coordinated component animation and application state.",
+        "Integrated booking-engine workflows through web scraping, browser and analytics events, DOM observers, API listeners, and browser-history handling.",
+        "Rebuilt an existing application with modern React patterns, lazy loading, centralized state, real-time updates, and client-side routing.",
+        "Built dynamic, configurable Angular pages for hotel-booking customers.",
+        "Managed projects with teammates and worked with clients to deliver their vision."
+      ]
+    },
+    {
+      "company": "iFlare Web Technologies",
+      "period": "Apr 2017 - Jun 2017",
+      "description": "Developed a mobile application interface using Ionic Framework v1.",
+      "details": ["Implemented a UI screen for a mobile application using Ionic Framework v1."]
+    }
+  ],
+  "contributionAreas": [
+    "Product customization and theming",
+    "Micro frontend architecture",
+    "Testing foundations",
+    "Compensation and booking workflows",
+    "Project and client collaboration"
+  ],
+  "companyWebsites": {
+    "Sequoia Group": "https://www.sequoia.com/",
+    "200OK Solutions": "https://www.200oksolutions.com/",
+    "iFlare Web Technologies": "https://www.iflair.com/"
+  }
+}

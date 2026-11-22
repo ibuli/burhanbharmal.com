@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-22T09:14:22.899813+00:00",
+  "title": "Design System: Burhan Bharmal",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Bg",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "oklch(0.15 0.0367 42)",
+          "oklch(0.26 0.0788 42)",
+          "oklch(0.37 0.1050 42)",
+          "oklch(0.49 0.1050 42)",
+          "oklch(0.61 0.1050 42)",
+          "oklch(0.73 0.1050 42)",
+          "oklch(0.85 0.0788 42)",
+          "oklch(0.95 0.0367 42)"
+        ]
+      },
+      "accent-ink": {
+        "role": "primary",
+        "displayName": "Accent Ink",
+        "tonalRamp": [
+          "oklch(0.15 0.0367 42)",
+          "oklch(0.26 0.0788 42)",
+          "oklch(0.37 0.1050 42)",
+          "oklch(0.49 0.1050 42)",
+          "oklch(0.61 0.1050 42)",
+          "oklch(0.73 0.1050 42)",
+          "oklch(0.85 0.0788 42)",
+          "oklch(0.95 0.0367 42)"
+        ]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Input",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "dark-bg": {
+        "role": "neutral",
+        "displayName": "Dark Bg",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark Surface",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "dark-text": {
+        "role": "neutral",
+        "displayName": "Dark Text",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Line",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Dark Accent",
+        "tonalRamp": [
+          "oklch(0.15 0.0367 42)",
+          "oklch(0.26 0.0788 42)",
+          "oklch(0.37 0.1050 42)",
+          "oklch(0.49 0.1050 42)",
+          "oklch(0.61 0.1050 42)",
+          "oklch(0.73 0.1050 42)",
+          "oklch(0.85 0.0788 42)",
+          "oklch(0.95 0.0367 42)"
+        ]
+      },
+      "dark-accent-ink": {
+        "role": "primary",
+        "displayName": "Dark Accent Ink",
+        "tonalRamp": [
+          "oklch(0.15 0.0367 42)",
+          "oklch(0.26 0.0788 42)",
+          "oklch(0.37 0.1050 42)",
+          "oklch(0.49 0.1050 42)",
+          "oklch(0.61 0.1050 42)",
+          "oklch(0.73 0.1050 42)",
+          "oklch(0.85 0.0788 42)",
+          "oklch(0.95 0.0367 42)"
+        ]
+      },
+      "dark-input": {
+        "role": "neutral",
+        "displayName": "Dark Input",
+        "tonalRamp": [
+          "oklch(0.15 0.0042 105)",
+          "oklch(0.26 0.0090 105)",
+          "oklch(0.37 0.0120 105)",
+          "oklch(0.49 0.0120 105)",
+          "oklch(0.61 0.0120 105)",
+          "oklch(0.73 0.0120 105)",
+          "oklch(0.85 0.0090 105)",
+          "oklch(0.95 0.0042 105)"
+        ]
+      },
+      "viewer-backdrop": {
+        "role": "neutral",
+        "displayName": "Image Viewer Backdrop"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Homepage Display",
+        "purpose": "Oversized personal identity; narrower screens use the documented responsive override."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Balanced section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Base third-level heading with contextual card overrides."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "18px default body reading and substantial descriptions, backed by --text-body."
+      },
+      "prose": {
+        "displayName": "Long Reading",
+        "purpose": "18px article and project narrative text on desktop and narrow screens, with 1.85 line height."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "16px buttons and text actions, backed by --text-small."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "16px shared header navigation at all viewport sizes."
+      },
+      "footer-action": {
+        "displayName": "Footer Contact Action",
+        "purpose": "Prominent Work with me route action in the closing contact section."
+      },
+      "small": {
+        "displayName": "Readable Small Text",
+        "purpose": "16px baseline for labels, hints, controls, metadata, tags, and compact descriptions; retained on narrow screens."
+      },
+      "wordmark": {
+        "displayName": "Header Wordmark",
+        "purpose": "Shared full-name stacked identity in the header."
+      },
+      "wordmark-footer": {
+        "displayName": "Footer Wordmark",
+        "purpose": "Larger version of the same full-name signature."
+      },
+      "resume-name": {
+        "displayName": "Resume Name",
+        "purpose": "Compact professional resume heading, retaining Syne and the existing heading tracking."
+      },
+      "resume-role": {
+        "displayName": "Resume Role Title",
+        "purpose": "Current position within each employer contribution section; earlier promotions appear in compact chronological rows."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hero-screen",
+        "value": "18px 34px 55px #20281d35",
+        "purpose": "Lift the tilted opening screenshot."
+      },
+      {
+        "name": "project-screen",
+        "value": "12px 26px 52px #17201522",
+        "purpose": "Separate contained project screenshots from their stage."
+      },
+      {
+        "name": "dark-project-screen",
+        "value": "12px 20px 45px #11131955",
+        "purpose": "Screenshot depth on the dark project stage."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Shared transition and opening easing."
+      },
+      {
+        "name": "pressed-control",
+        "value": "160ms; scale(0.97)",
+        "purpose": "Button and theme-switch active state."
+      },
+      {
+        "name": "opening-title",
+        "value": "800ms; translateY(16px) to 0; opacity 0.55 to 1",
+        "purpose": "Homepage title entry."
+      },
+      {
+        "name": "opening-stage",
+        "value": "1100ms; translateY(16px) to 0; opacity 0.55 to 1",
+        "purpose": "Homepage screenshot stage entry."
+      },
+      {
+        "name": "hero-hover",
+        "value": "800ms; rotate(-6deg) to rotate(-3deg) translateY(-8px)",
+        "purpose": "Fine-pointer hero image response."
+      },
+      {
+        "name": "project-scroll",
+        "value": "progress [0, 0.5, 1]; y [32, 0, -24]px; scale [0.96, 1, 1.025]",
+        "purpose": "Native-scroll image motion from target start/end viewport offsets; disabled for reduced motion and suppressed at <=650px."
+      },
+      {
+        "name": "project-action-hover",
+        "value": "220ms; translateY(-5px)",
+        "purpose": "Fine-pointer project action response."
+      },
+      {
+        "name": "article-image-hover",
+        "value": "600ms; scale(1.035)",
+        "purpose": "Fine-pointer article cover response."
+      },
+      {
+        "name": "navigation-indicator",
+        "value": "240ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Shared Motion layout indicator follows mouse hover; focus and reduced-motion updates use duration 0."
+      },
+      {
+        "name": "theme-icon",
+        "value": "180ms cubic-bezier(0.23, 1, 0.32, 1); opacity and transform",
+        "purpose": "Sun/Moon state swap with 35deg rotation and 0.8 scale at rest for the hidden icon."
+      },
+      {
+        "name": "header-contact-arrow",
+        "value": "200ms cubic-bezier(0.23, 1, 0.32, 1); translate(2px, -2px)",
+        "purpose": "Fine-pointer Work with me hover response."
+      },
+      {
+        "name": "footer-contact-arrow",
+        "value": "220ms cubic-bezier(0.23, 1, 0.32, 1); rotate(45deg)",
+        "purpose": "Fine-pointer closing Work with me action response."
+      },
+      {
+        "name": "copy-email-state",
+        "value": "160ms cubic-bezier(0.23, 1, 0.32, 1); opacity and transform",
+        "purpose": "Copy/Check icon swap; status resets after 3000ms."
+      },
+      {
+        "name": "footer-link-arrow",
+        "value": "180ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Directory arrows translate(2px, -2px); Back-to-top arrow translates Y -3px. Reduced motion removes transforms."
+      },
+      {
+        "name": "detail-gallery",
+        "value": "scroll-behavior: smooth; controls 180ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Native scroll-snap gallery; reduced motion changes scroll behavior to auto and removes transitions."
+      },
+      {
+        "name": "project-image-transition",
+        "value": "320ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Guarded document.startViewTransition using project-image across opening, changing, and closing the native viewer. Reduced motion bypasses the API; new requests skip a running transition."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "intermediate-max",
+        "value": "1000px"
+      },
+      {
+        "name": "narrow-max",
+        "value": "650px"
+      },
+      {
+        "name": "chrome-max",
+        "value": "760px"
+      },
+      {
+        "name": "compact-contact-max",
+        "value": "420px"
+      },
+      {
+        "name": "resume-stack-max",
+        "value": "800px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "description": "Small-corner action with a deliberate pressed response.",
+      "html": "<button class=\"ds-button-primary\">Back to work</button>",
+      "css": ".ds-button-primary{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:1px solid var(--line,#cbc9c0);border-radius:3px;font-weight:500;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1);background:var(--accent,#944528);color:var(--accent-ink,#fff9f3);border-color:var(--accent,#944528);}.ds-button-primary:active{transform:scale(.97)}.ds-button-primary:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "description": "Small-corner action with a deliberate pressed response.",
+      "html": "<button class=\"ds-button-secondary\">Back to work</button>",
+      "css": ".ds-button-secondary{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:1px solid var(--line,#cbc9c0);border-radius:3px;font-weight:500;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1);background:transparent;}.ds-button-secondary:active{transform:scale(.97)}.ds-button-secondary:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "description": "Labeled search on a quiet tonal field.",
+      "html": "<label class=\"ds-search-label\" for=\"ds-search\">Search articles</label><input class=\"ds-search\" id=\"ds-search\" type=\"search\" placeholder=\"Search by title or topic\">",
+      "css": ".ds-search-label{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);display:block;font-size:var(--text-small,1rem);margin-bottom:12px}.ds-search{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);width:100%;min-height:48px;padding:12px 16px;border:1px solid var(--line,#cbc9c0);background:var(--input,#f7f6f2);border-radius:3px;caret-color:var(--accent,#944528)}.ds-search::placeholder{color:var(--muted,#62635b)}.ds-search:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}",
+      "refersTo": "search-input"
+    },
+    {
+      "name": "Topic Filter",
+      "kind": "chip",
+      "description": "Rectangular topic selector with explicit pressed semantics.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"false\">Engineering</button>",
+      "css": ".ds-filter{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);min-height:44px;padding:8px 15px;border:1px solid var(--line,#cbc9c0);border-radius:3px;font-size:var(--text-small,1rem);cursor:pointer;background:transparent}.ds-filter:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(hover:hover) and (pointer:fine){.ds-filter:hover{background:var(--surface,#e4e3de)}}",
+      "refersTo": "topic-filter"
+    },
+    {
+      "name": "Selected Topic",
+      "kind": "chip",
+      "description": "Rectangular topic selector with explicit pressed semantics.",
+      "html": "<button class=\"ds-filter-active\" aria-pressed=\"true\">All</button>",
+      "css": ".ds-filter-active{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);min-height:44px;padding:8px 15px;border:1px solid var(--line,#cbc9c0);border-radius:3px;font-size:var(--text-small,1rem);cursor:pointer;background:var(--text,#22241f);color:var(--bg,#efeeea);border-color:var(--text,#22241f)}.ds-filter-active:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}",
+      "refersTo": "topic-filter-active"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "description": "Sticky-header navigation; active parent section underline persists while a shared surface indicator follows hover or focus. Preview uses static CSS states; production uses shared Motion layout.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#work\" data-active=\"true\" aria-current=\"page\"><span>Work</span></a><a href=\"#resume\"><span>Resume</span></a><a href=\"#articles\"><span>Articles</span></a><a href=\"#posts\"><span>Posts</span></a></nav>",
+      "css": ".ds-nav{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.ds-nav a{font-family:'Public Sans',Arial,sans-serif;color:var(--text,#22241f);position:relative;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;font-size:var(--text-small,1rem);line-height:1.65;color:var(--muted,#62635b);text-decoration:none;border-radius:3px}.ds-nav a[data-active]{color:var(--text,#22241f);background:var(--surface,#e4e3de)}.ds-nav a span{position:relative}.ds-nav a[data-active] span:after{content:\"\";position:absolute;bottom:-6px;left:0;right:0;height:1px;background:var(--accent,#944528)}.ds-nav a:focus-visible{background:var(--surface,#e4e3de)}.ds-nav a:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(hover:hover) and (pointer:fine){.ds-nav a:hover{background:var(--surface,#e4e3de)}}@media(max-width:1000px){.ds-nav a{padding-inline:12px}}@media(max-width:760px){.ds-nav{width:100%;gap:6px}.ds-nav a{flex:1;min-height:44px;padding:9px 12px;font-size:var(--text-small,1rem)}.ds-nav a[data-active] span:after{bottom:-5px}}",
+      "refersTo": "navigation-link"
+    },
+    {
+      "name": "Technology Tags",
+      "kind": "chip",
+      "description": "Unboxed text list with small dot separators.",
+      "html": "<div class=\"ds-tags\"><span>React</span><span>TypeScript</span><span>Cloudflare</span></div>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;gap:7px 17px;margin-top:18px}.ds-tags span{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);font-size:var(--text-small,1rem);color:var(--muted,#62635b)}.ds-tags span+span{position:relative}.ds-tags span+span:before{content:\"\";position:absolute;top:9px;left:-10px;width:3px;height:3px;border-radius:50%;background:var(--muted,#62635b)}"
+    },
+    {
+      "name": "Post Card",
+      "kind": "card",
+      "description": "Text-led reading card defined by a fine top rule.",
+      "html": "<article class=\"ds-post\"><h3><a href=\"#post\">Small thoughts. Open conversations.</a></h3><p class=\"ds-post-meta\">Engineering</p><p class=\"ds-post-description\">Things I\u2019m building, reading, and figuring out.</p><a class=\"ds-post-link\" href=\"#post\">Read post</a></article>",
+      "css": ".ds-post{font-family:'Public Sans',Arial,sans-serif;font-size:var(--text-small,1rem);color:var(--text,#22241f);padding-top:22px;border-top:1px solid var(--line,#cbc9c0);display:flex;flex-direction:column;align-items:flex-start}.ds-post-meta{margin:16px 0 0;font-size:var(--text-small,1rem);color:var(--muted,#62635b)}.ds-post h3{font-family:Syne,sans-serif;font-size:1.5rem;font-weight:500;line-height:1.2;letter-spacing:-.025em;margin:0;overflow-wrap:anywhere}.ds-post h3 a{color:inherit;text-decoration:none}.ds-post-description{font-size:var(--text-small,1rem);color:var(--muted,#62635b);margin:18px 0;line-height:1.65}.ds-post-link{margin-top:auto;padding:10px 0;font-size:var(--text-small,1rem);font-weight:500;color:inherit;text-underline-offset:7px}.ds-post a:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(hover:hover) and (pointer:fine){.ds-post-link:hover{color:var(--accent,#944528)}}"
+    },
+    {
+      "name": "Theme Switch",
+      "kind": "button",
+      "description": "44px circular opposite-theme action with Sun/Moon icons; inherited theme selects the visible icon.",
+      "html": "<button class=\"ds-theme\" aria-label=\"Switch color theme\"><span class=\"ds-theme-sun\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42\"/></svg></span><span class=\"ds-theme-moon\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.463.402.807a6.25 6.25 0 0 0 8.268 8.268c.344-.215.829-.004.803.397\"/></svg></span></button>",
+      "css": ".ds-theme{font-family:'Public Sans',Arial,sans-serif;color:var(--text,#22241f);position:relative;display:grid;place-items:center;background:transparent;border:1px solid var(--line,#cbc9c0);border-radius:50%;width:44px;height:44px;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-theme>span{position:absolute;display:grid;place-items:center;transition:opacity 180ms cubic-bezier(.23,1,.32,1),transform 180ms cubic-bezier(.23,1,.32,1)}.ds-theme-sun{opacity:0;transform:rotate(-35deg) scale(.8)}.ds-theme-moon{opacity:1;transform:rotate(0) scale(1)}:host-context([data-theme=\"dark\"]) .ds-theme-sun{opacity:1;transform:rotate(0) scale(1)}:host-context([data-theme=\"dark\"]) .ds-theme-moon{opacity:0;transform:rotate(35deg) scale(.8)}.ds-theme:active{transform:scale(.97)}.ds-theme:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(prefers-color-scheme:dark){:host-context(:root:not([data-theme=\"light\"])) .ds-theme-sun{opacity:1;transform:rotate(0) scale(1)}:host-context(:root:not([data-theme=\"light\"])) .ds-theme-moon{opacity:0;transform:rotate(35deg) scale(.8)}}@media(prefers-reduced-motion:reduce){.ds-theme,.ds-theme>span{transition:none}}",
+      "refersTo": "theme-toggle"
+    },
+    {
+      "name": "Footer Contact",
+      "kind": "custom",
+      "refersTo": "footer-email",
+      "description": "Prominent Work with me route action, visible selectable email address, and copy affordance. Production reports clipboard success or failure with a polite output. Supporting text uses primary-text contrast over the original whole-footer pencil landscape; compact text remains 16px.",
+      "html": "<div class=\"ds-footer-contact\"><a class=\"ds-footer-email\" href=\"/work-with-me\"><span>Let\u2019s talk</span><span class=\"ds-footer-arrow\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></span></a><div class=\"ds-footer-address\"><a href=\"mailto:bharmal.burhan@hotmail.com\">bharmal.burhan@hotmail.com</a><div class=\"ds-copy\"><button class=\"ds-copy-button\" aria-label=\"Copy email address\"><span class=\"ds-copy-idle\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg></span><span class=\"ds-copy-done\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg></span></button><output class=\"ds-copy-status\" aria-live=\"polite\"></output></div></div></div>",
+      "css": ".ds-footer-contact{--muted:var(--text,#22241f);font-family:'Public Sans',Arial,sans-serif;color:var(--text,#22241f);width:100%;max-width:440px}.ds-footer-email{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-bottom:22px;border-bottom:1px solid var(--line,#cbc9c0);font-family:Syne,sans-serif;font-size:2rem;line-height:1.1;letter-spacing:-.03em;color:inherit;text-decoration:none}.ds-footer-arrow{display:grid;place-items:center;width:58px;height:58px;flex:none;border:1px solid var(--line,#cbc9c0);border-radius:50%;transition:transform 220ms cubic-bezier(.23,1,.32,1)}.ds-footer-address{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px}.ds-footer-address>a{font-size:var(--text-small,1rem);color:var(--muted,#62635b);overflow-wrap:anywhere;text-decoration:none;padding:10px 0}.ds-copy{position:relative;flex:none}.ds-copy-button{position:relative;display:grid;place-items:center;width:44px;height:44px;border:1px solid var(--line,#cbc9c0);border-radius:3px;background:transparent;color:inherit;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-copy-button>span{position:absolute;display:grid;place-items:center;transition:opacity 160ms cubic-bezier(.23,1,.32,1),transform 160ms cubic-bezier(.23,1,.32,1)}.ds-copy-done{opacity:0;transform:scale(.9)}.ds-copy-button[data-copied] .ds-copy-idle{opacity:0;transform:scale(.9)}.ds-copy-button[data-copied] .ds-copy-done{opacity:1;transform:scale(1);color:var(--accent,#944528)}.ds-copy-button:active{transform:scale(.97)}.ds-copy-status{position:absolute;right:0;top:calc(100% + 5px);font-size:var(--text-small,1rem);color:var(--accent,#944528);white-space:nowrap}.ds-footer-contact a:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}.ds-copy-button:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(hover:hover) and (pointer:fine){.ds-footer-email:hover .ds-footer-arrow{transform:rotate(45deg)}.ds-footer-address>a:hover{color:var(--accent,#944528)}.ds-copy-button:hover{background:var(--surface,#e4e3de)}}@media(max-width:760px){.ds-footer-email{font-size:1.8rem;padding-bottom:18px}.ds-footer-arrow{width:50px;height:50px}}@media(max-width:420px){.ds-footer-address>a{font-size:var(--text-small,1rem)}}@media(prefers-reduced-motion:reduce){.ds-footer-arrow,.ds-copy-button,.ds-copy-button>span{transition:none}.ds-footer-email:hover .ds-footer-arrow{transform:none}}"
+    },
+    {
+      "name": "Project Enquiry Fields",
+      "kind": "custom",
+      "refersTo": "enquiry-field",
+      "description": "Native labelled fields and local draft-preparation control. Preview is static; production hydration guard, native validation, focused draft link, and explicit mailto handoff remain in React.",
+      "html": "<section class=\"ds-enquiry\" aria-label=\"Project enquiry preview\"><div class=\"ds-enquiry-pair\"><div class=\"ds-enquiry-field\"><label for=\"ds-enquiry-name\">Your name</label><input id=\"ds-enquiry-name\" autocomplete=\"name\" required maxlength=\"100\"></div><div class=\"ds-enquiry-field\"><label for=\"ds-enquiry-email\">Your email</label><input id=\"ds-enquiry-email\" type=\"email\" autocomplete=\"email\" required maxlength=\"254\"></div></div><div class=\"ds-enquiry-field\"><label for=\"ds-enquiry-help\">What kind of help? <span>Optional</span></label><select id=\"ds-enquiry-help\"><option>Let\u2019s figure it out together</option><option>Bring a product to life</option><option>Improve an existing frontend</option><option>Build consistency across a product</option></select></div><div class=\"ds-enquiry-field\"><label for=\"ds-enquiry-details\">What are you working on?</label><textarea id=\"ds-enquiry-details\" required minlength=\"20\" maxlength=\"2000\" rows=\"5\" aria-describedby=\"ds-enquiry-hint\" placeholder=\"The product, what needs to change, and where you could use help.\"></textarea><p class=\"ds-enquiry-hint\" id=\"ds-enquiry-hint\">Please use at least 20 characters. No detailed brief needed.</p></div><button class=\"ds-enquiry-button\" type=\"button\">Prepare email draft</button><p class=\"ds-enquiry-hint\">Your details stay in this page until you open the draft in your email app.</p></section>",
+      "css": ".ds-enquiry{font-family:'Public Sans',Arial,sans-serif;color:var(--text,#22241f);font-size:var(--text-body,1.125rem);line-height:1.65;max-width:600px}.ds-enquiry-pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}.ds-enquiry-field{min-width:0;margin-bottom:24px}.ds-enquiry-field label{display:flex;justify-content:space-between;gap:12px;font-size:var(--text-small,1rem);margin-bottom:10px}.ds-enquiry-field label span{font-size:var(--text-small,1rem);color:var(--muted,#62635b)}.ds-enquiry-field input,.ds-enquiry-field textarea,.ds-enquiry-field select{box-sizing:border-box;width:100%;min-height:48px;padding:12px 14px;background:var(--input,#f7f6f2);color:var(--text,#22241f);border:1px solid var(--line,#cbc9c0);border-radius:3px;font:inherit;font-size:var(--text-small,1rem);caret-color:var(--accent,#944528)}.ds-enquiry-field textarea{resize:vertical;min-height:144px;line-height:1.7}.ds-enquiry-field input::placeholder,.ds-enquiry-field textarea::placeholder{color:var(--muted,#62635b);opacity:1}.ds-enquiry-field input:disabled,.ds-enquiry-field textarea:disabled,.ds-enquiry-field select:disabled,.ds-enquiry-button:disabled{opacity:.6;cursor:wait}.ds-enquiry-hint{font-size:var(--text-small,1rem);line-height:1.7;color:var(--muted,#62635b);margin:10px 0 0}.ds-enquiry-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:12px 24px;border:1px solid var(--accent,#944528);border-radius:3px;background:var(--accent,#944528);color:var(--accent-ink,#fff9f3);font:inherit;font-size:var(--text-small,1rem);font-weight:500;cursor:pointer;transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-enquiry-button:active{transform:scale(.97)}.ds-enquiry-field input:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}.ds-enquiry-field select:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}.ds-enquiry-field textarea:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}.ds-enquiry-button:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(max-width:650px){.ds-enquiry-pair{grid-template-columns:1fr;gap:0}.ds-enquiry-field input,.ds-enquiry-field select,.ds-enquiry-field textarea{font-size:16px}}@media(prefers-reduced-motion:reduce){.ds-enquiry-button{transition:none}}"
+    },
+    {
+      "name": "Full-name Wordmark",
+      "kind": "custom",
+      "description": "Stacked full-name identity; header at 1.4rem and footer at 2rem, sharing Syne 650 and a copper dot.",
+      "html": "<a class=\"ds-wordmark-home\" href=\"/\" aria-label=\"Burhan Bharmal home\"><span class=\"ds-wordmark\" aria-hidden=\"true\"><span>Burhan</span><span>Bharmal<span class=\"ds-wordmark-dot\">.</span></span></span></a>",
+      "css": ".ds-wordmark-home{display:inline-block;color:var(--text,#22241f);text-decoration:none}.ds-wordmark{display:flex;flex-direction:column;align-items:flex-start;font-family:Syne,sans-serif;font-size:1.4rem;font-weight:650;letter-spacing:-.04em;line-height:1;gap:2px}.ds-wordmark-dot{color:var(--accent,#944528)}.ds-wordmark-home:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}"
+    },
+    {
+      "name": "Project Gallery Controls",
+      "kind": "custom",
+      "refersTo": "gallery-control",
+      "description": "Native gallery counter and endpoint-aware 48px controls. This static preview shows the first-slide state; production updates from scroll position and scrolls the associated track.",
+      "html": "<div class=\"ds-gallery-controls\"><span class=\"ds-gallery-position\" aria-live=\"polite\" aria-atomic=\"true\">1 / 3</span><button type=\"button\" aria-label=\"Previous screenshot\" disabled><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 19-7-7 7-7M5 12h14\"/></svg></button><button type=\"button\" aria-label=\"Next screenshot\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button></div>",
+      "css": ".ds-gallery-controls{display:flex;align-items:center;gap:12px;font-family:\"Public Sans\",Arial,sans-serif;color:var(--text,#22241f)}.ds-gallery-position{font-size:var(--text-small,1rem);font-variant-numeric:tabular-nums;min-width:5ch;text-align:center;color:var(--muted,#62635b)}.ds-gallery-controls button{display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--muted,#62635b);border-radius:50%;background:transparent;color:inherit;cursor:pointer;transition:background 180ms cubic-bezier(.23,1,.32,1),color 180ms cubic-bezier(.23,1,.32,1)}.ds-gallery-controls button:enabled:hover{background:var(--text,#22241f);color:var(--bg,#efeeea)}.ds-gallery-controls button:disabled{opacity:.4;cursor:default}.ds-gallery-controls button:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-gallery-controls button{transition:none}}"
+    },
+    {
+      "name": "Image Viewer Toolbar",
+      "kind": "custom",
+      "refersTo": "viewer-control",
+      "description": "Static preview of native-dialog viewer controls. Production supplies zoom/fit, endpoint navigation, Escape cancellation, explicit focus restoration to the last viewed slide\u2019s anchor after native close, and guarded shared-image transitions.",
+      "html": "<div class=\"ds-viewer-toolbar\"><h2>Arkive<span>Screenshot 1 of 3</span></h2><div class=\"ds-viewer-controls\"><button type=\"button\" aria-label=\"Zoom image\" aria-pressed=\"false\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3M11 8v6M8 11h6\"/></svg></button><button type=\"button\" aria-label=\"Close image viewer\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg></button></div></div>",
+      "css": ".ds-viewer-toolbar{display:flex;align-items:center;justify-content:space-between;gap:24px;color:var(--text,#22241f);background:var(--bg,#efeeea)}.ds-viewer-toolbar h2{font-family:Syne,sans-serif;font-weight:500;font-size:1.5rem;line-height:1.3;letter-spacing:-.02em;margin:0}.ds-viewer-toolbar h2 span{display:block;font:400 var(--text-small,1rem)/1.6 \"Public Sans\",sans-serif;letter-spacing:0;color:var(--muted,#62635b);margin-top:4px}.ds-viewer-controls{display:flex;gap:12px;flex:none}.ds-viewer-controls button{display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--muted,#62635b);border-radius:50%;background:transparent;color:inherit;cursor:pointer}.ds-viewer-controls button:enabled:hover{background:var(--surface,#e4e3de)}.ds-viewer-controls button:disabled{opacity:.4;cursor:default}.ds-viewer-controls button:focus-visible{outline:2px solid var(--accent,#944528);outline-offset:6px}@media(max-width:650px){.ds-viewer-toolbar{align-items:flex-start;gap:12px}.ds-viewer-toolbar h2{font-size:1.25rem}}"
+    },
+    {
+      "name": "Resume Download Placeholder",
+      "kind": "button",
+      "refersTo": "resume-download-disabled",
+      "description": "Disabled Download resume control with explicit PDF coming soon status; no href, Print action, or fabricated download.",
+      "html": "<div class=\"ds-resume-action\"><button class=\"ds-resume-download\" type=\"button\" disabled aria-describedby=\"ds-resume-download-status\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3\"/></svg>Download resume</button><p id=\"ds-resume-download-status\">PDF coming soon.</p></div>",
+      "css": ".ds-resume-action{font-family:\"Public Sans\",Arial,sans-serif;color:var(--text,#22241f)}.ds-resume-download{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 24px;border:1px solid var(--line,#cbc9c0);border-radius:3px;background:var(--surface,#e4e3de);color:var(--muted,#62635b);font:500 var(--text-small,1rem)/1.65 \"Public Sans\",Arial,sans-serif;opacity:1;cursor:not-allowed}.ds-resume-action p{font-size:var(--text-small,1rem);color:var(--muted,#62635b);max-width:24ch;margin:12px 0 0;line-height:1.6}@media(max-width:800px){.ds-resume-action p{max-width:none}}"
+    },
+    {
+      "name": "Resume Role Progression",
+      "kind": "custom",
+      "description": "Chronological titles and start dates retain promotion history beneath employer-level contributions; evidence is not assigned to undated individual promotions.",
+      "html": "<div class=\"ds-cv-progression\"><h4>Role progression</h4><ol><li><span>Frontend Engineer</span><span class=\"ds-cv-date\">Jun 2021</span></li><li><span>SDE II | Frontend Engineer</span><span class=\"ds-cv-date\">Jul 2022</span></li><li><span>Senior Frontend Engineer</span><span class=\"ds-cv-date\">Jul 2024</span></li><li><span>Lead Engineer</span><span class=\"ds-cv-date\">Jul 2026</span></li></ol></div>",
+      "css": ".ds-cv-progression{margin-top:24px;font-family:\"Public Sans\",Arial,sans-serif;color:var(--text,#22241f);line-height:1.65}.ds-cv-progression h4{font-size:var(--text-small,1rem);font-weight:500;margin:0 0 12px}.ds-cv-progression ol{list-style:none;margin:0;padding:0;border-top:1px solid var(--line,#cbc9c0)}.ds-cv-progression li{display:flex;justify-content:space-between;align-items:baseline;gap:10px 20px;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--line,#cbc9c0);font-size:var(--text-small,1rem)}.ds-cv-date{font-size:var(--text-small,1rem);font-variant-numeric:tabular-nums;color:var(--muted,#62635b)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Project Screening Room",
+    "overview": "Editorial film stills frame real engineering work. Oversized, tightly tracked Syne titles establish a distinctive voice; Public Sans keeps navigation, descriptions, and long reading direct. Warm neutral daylight and charcoal dark mode share muted copper accents and the same restrained control vocabulary.\n\nCinematic depth belongs to the project screenshots. Generous spacing and asymmetric showcases give actual product pixels room to lead. Reading and career surfaces remain flat and calm. The chosen direction was implemented in code without a visual comp; the source, rather than an imagined reference, defines this record.",
+    "keyCharacteristics": [
+      "Actual project screenshots as the central visual material.",
+      "Distinctive display typography paired with quiet, readable body text.",
+      "Warm neutral and charcoal themes with copper accents.",
+      "Native scrolling with restrained screenshot motion.",
+      "Flat reading surfaces, fine rules, and small control corners."
+    ],
+    "rules": [
+      {
+        "name": "The Theme Pair Rule",
+        "body": "Use the live semantic CSS variables so foregrounds, backgrounds, borders, and focus treatments change together. Follow the system preference until an explicit theme is selected; preserve that selection when storage is available.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Syne for identity and headings, Public Sans for reading and controls. Preserve tight heading tracking and balanced wrapping without applying display styling to paragraphs.",
+        "section": "typography"
+      },
+      {
+        "name": "The Image Depth Rule",
+        "body": "Keep text surfaces flat. Reserve offset image shadows for real screenshots and gallery media, where they separate product pixels from the surrounding stage.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** lead project surfaces with actual product screenshots and preserve their original pixels.",
+      "**Do** use semantic theme variables for both themes and keep focus visible.",
+      "**Do** keep long reading calm, with Public Sans, generous line height, and bounded line lengths.",
+      "**Do** isolate scroll-linked motion to screenshot layers and suppress it on narrow screens and for reduced motion.",
+      "**Do** retain visible navigation and stack complex layouts on narrow screens.",
+      "**Do** lead cards and project navigation with the title, placing useful metadata below it."
+    ],
+    "donts": [
+      "**Don't** manufacture product interfaces, outcomes, metrics, portraits, or missing dates.",
+      "**Don't** introduce scroll hijacking or make content depend on an entrance animation.",
+      "**Don't** turn image shadows into a floating-card treatment for reading surfaces.",
+      "**Don't** replace the established Syne and Public Sans pairing with system display typography."
+    ]
+  }
+}

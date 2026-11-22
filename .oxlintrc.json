@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "react", "jsx-a11y"],
+  "categories": { "correctness": "error" },
+  "rules": { "no-console": "warn", "typescript/no-explicit-any": "error" },
+  "ignorePatterns": ["src/routeTree.gen.ts", "src/generated/**", "worker-configuration.d.ts"]
+}

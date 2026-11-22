@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "burhanbharmal-portfolio",
+  "account_id": "07683cf2c917d27c3f30821bcd57d705",
+  "main": "src/server.ts",
+  "compatibility_date": "2026-11-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "upload_source_maps": true,
+  "observability": { "enabled": true, "head_sampling_rate": 1 },
+  "workers_dev": true,
+  "routes": [{ "pattern": "burhanbharmal.com", "custom_domain": true }],
+}
