@@ -6,7 +6,7 @@ export const Route = createFileRoute('/resume')({
   head: () =>
     seo(
       'Resume',
-      `Complete career history, education, certifications, and skills of Burhan Bharmal, ${profile.role} at ${profile.company}.`,
+      `Explore my engineering career, from building products to leading architecture and teams. Experience, education, and certifications of ${profile.name}.`,
       '/resume',
     ),
   component: Resume,

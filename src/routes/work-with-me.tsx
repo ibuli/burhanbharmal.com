@@ -6,7 +6,7 @@ export const Route = createFileRoute('/work-with-me')({
   head: () =>
     seo(
       'Work with me',
-      'React product development, frontend architecture, and component systems for founders and product teams. Discuss your project with Burhan Bharmal.',
+      'Have a product to build or a frontend to improve? Work with Burhan Bharmal on product development, architecture, performance, and component systems.',
       '/work-with-me',
     ),
   component: WorkWithMe,

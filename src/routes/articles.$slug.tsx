@@ -19,6 +19,7 @@ export const Route = createFileRoute('/articles/$slug')({
           `/articles/${loaderData.article.slug}`,
           {
             type: 'article',
+            publishedTime: loaderData.article.date,
           },
         )
       : {},

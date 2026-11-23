@@ -10,8 +10,8 @@ import { ArrowDown, ArrowUpRight } from 'lucide-react';
 export const Route = createFileRoute('/')({
   head: () =>
     seo(
-      'React products & frontend engineering',
-      'React product development, frontend architecture, and component systems for founders and product teams. Work and writing by Burhan Bharmal.',
+      profile.name,
+      'I help founders and product teams build reliable web products. Explore my projects, experience, and writing on software engineering and AI.',
       '/',
     ),
   component: Home,

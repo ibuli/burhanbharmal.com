@@ -1,4 +1,16 @@
-# SEO audit — 21 November 2026
+# SEO audit
+
+## Current status — 23 November 2026
+
+The portfolio is deployed on Cloudflare Workers at `https://burhanbharmal.com`. The homepage title is simply “Burhan Bharmal” across the HTML title, Open Graph, and X metadata. Its preview image omits the job role, and its description introduces the work and writing. All 172 published routes have generated 1200 × 630 JPEG social cards with content-hashed URLs, dimensions, and alternative text. Article/project cards include real cover imagery.
+
+Every page includes a named author. Articles and notes use `og:type=article`; original publication dates are included only where supplied. The homepage remains `og:type=website` without a fabricated publication date. Unit checks cover all published cards and metadata, and crawler smoke checks verify representative server-rendered pages and live image URLs for X and LinkedIn. The custom domain was also checked directly through Cloudflare because the local resolver retained the old Vercel address.
+
+LinkedIn Post Inspector can refresh new shares after deployment; existing published posts retain their previous preview. Search Console indexing and field Core Web Vitals still require separate observation.
+
+## Historical audit — 21 November 2026
+
+The following records the pre-launch state; the deployment and preview findings below have been superseded by the current status above.
 
 Scope: local production build at localhost:4173, all 172 canonical sitemap URLs, and a read-only check of the current public homepage. The redesign has not been deployed. No Search Console account data or current field Core Web Vitals was available; rankings, index coverage, and rich-result eligibility were not certified.
 

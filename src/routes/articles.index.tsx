@@ -5,7 +5,7 @@ export const Route = createFileRoute('/articles/')({
   head: () =>
     seo(
       'Articles',
-      'Articles by Burhan Bharmal on engineering, AI, and life. Complete articles on software, tools, and experiences.',
+      'Firsthand stories and practical lessons from building software, exploring AI, and life along the way. Articles by Burhan Bharmal.',
       '/articles',
     ),
   component: () => <Library type="articles" />,

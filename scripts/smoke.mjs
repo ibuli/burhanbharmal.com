@@ -46,6 +46,20 @@ for (const route of [
     assert.equal(response.status, 200);
     const html = await response.text();
     const head = html.split('</head>')[0];
+    assert(head.includes('name="author" content="Burhan Bharmal"'), `${route}: named author`);
+    if (route === '/') {
+      assert(head.includes('<title>Burhan Bharmal</title>'), 'Identity-led homepage title');
+      assert(head.includes('property="og:type" content="website"'), 'Homepage is a website');
+      assert(!head.includes('article:published_time'), 'Homepage has no invented publication date');
+    }
+    if (route.startsWith('/articles/')) {
+      assert(head.includes('property="og:type" content="article"'), 'Article content type');
+      assert(head.includes('property="article:author"'), 'Article author');
+      assert(
+        head.includes('property="article:published_time"'),
+        'Original article publication date',
+      );
+    }
     assert(head.includes('content="summary_large_image"'), `${route}: large social card in head`);
     const image = head.match(/property="og:image" content="([^"]+)"/);
     assert(image, `${route}: server-rendered image URL`);

@@ -1,5 +1,11 @@
 # Cinematic portfolio verification
 
+## Current status — 23 November 2026
+
+The portfolio has been deployed to Cloudflare Workers. The earlier login/deployment deferrals below describe historical review passes. The current sharing update passes 13 tests, lint, formatting, the production build, type checking, deployment packaging, and representative live SSR/crawler checks. The homepage title is “Burhan Bharmal”; original article dates and author metadata are present without inventing homepage publication dates. All 172 social cards are generated at build time.
+
+## Earlier verification record
+
 Checked 21 November 2026 against the local production Workers preview at http://localhost:4173.
 
 - `bun run check` passed: Markdown generation, Oxlint with zero warnings, Oxfmt, four native Bun content tests, production React/Workers build, and strict TypeScript.

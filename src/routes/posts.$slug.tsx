@@ -12,7 +12,10 @@ export const Route = createFileRoute('/posts/$slug')({
   },
   head: ({ loaderData }) =>
     loaderData
-      ? seo(loaderData.post.title, loaderData.post.description, `/posts/${loaderData.post.slug}`)
+      ? seo(loaderData.post.title, loaderData.post.description, `/posts/${loaderData.post.slug}`, {
+          type: 'article',
+          publishedTime: loaderData.post.date,
+        })
       : {},
   component: PostPage,
 });

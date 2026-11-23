@@ -109,7 +109,7 @@ const cards: Card[] = [
   {
     pathname: '/',
     title: 'Burhan Bharmal.',
-    subtitle: 'Lead Engineer · Products, architecture & ideas.',
+    subtitle: 'Projects, writing & things I’m building.',
   },
   {
     pathname: '/resume',
@@ -168,7 +168,7 @@ for (const card of cards) {
   const title = titleLines
     .map((line, i) => lettering(line, display, size, 80, baseline + i * size * 1.12))
     .join('');
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="${paper}"/><rect x="80" y="64" width="64" height="64" rx="10" fill="${ink}"/><g transform="translate(80 64)">${monogram}</g>${title}${lettering(card.subtitle, body, 24, 80, 534)}<path d="M80 566H1120" stroke="#c9c8c0"/>${lettering('burhanbharmal.com', body, 19, 80, 602, copper)}</svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="${paper}"/><rect x="80" y="64" width="64" height="64" rx="10" fill="${ink}"/><g transform="translate(80 64)">${monogram}</g>${title}${lettering(card.subtitle, body, card.pathname === '/' ? 32 : 24, 80, 534)}<path d="M80 566H1120" stroke="#c9c8c0"/>${lettering('burhanbharmal.com', body, 19, 80, 602, copper)}</svg>`;
   const overlay = card.cover
     ? [
         {
