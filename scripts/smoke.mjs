@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
 const origin = process.env.PORTFOLIO_ORIGIN || 'http://localhost:4173';
 const checks = [
   ['/', 'I help founders'],
@@ -20,7 +21,18 @@ for (const [route, expected] of checks) {
   if (expected)
     assert((await response.text()).includes(expected), `${route}: server-rendered content`);
 }
+const postRedirects = JSON.parse(
+  await readFile(new URL('../data/retired-post-redirects.json', import.meta.url), 'utf8'),
+);
+for (const [slug, destination] of Object.entries(postRedirects)) {
+  const response = await fetch(`${origin}/posts/${slug}`, { redirect: 'manual' });
+  assert.equal(response.status, 308, `${slug}: permanent redirect`);
+  assert.equal(new URL(response.headers.get('location'), origin).pathname, destination);
+  assert.equal((await fetch(new URL(destination, origin))).status, 200);
+}
+
 for (const route of [
+  '/posts/ok-what-is-next-qrqg6g',
   '/not-a-route',
   '/articles/not-a-real-article',
   '/posts/not-a-post',
@@ -34,6 +46,17 @@ for (const route of [
   const response = await fetch(`${origin}${route}`);
   assert.equal(response.status, 404, `${route}: genuine HTTP 404`);
 }
+for (const [route, action, recommendation] of [
+  ['/not-a-route', 'Explore projects', 'Arkive'],
+  ['/posts/not-a-post', 'Browse posts', 'HTML frames'],
+]) {
+  const response = await fetch(`${origin}${route}`);
+  const html = await response.text();
+  assert(html.includes('Scene missing.'), `${route}: renders the custom 404`);
+  assert(html.includes(action), `${route}: relevant recovery link`);
+  assert(html.includes(recommendation), `${route}: initial recommendation in HTML`);
+}
+
 // Sharing bots must receive complete metadata in the initial HTML, without JavaScript.
 for (const route of [
   '/',

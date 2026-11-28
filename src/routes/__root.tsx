@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { createRootRoute, HeadContent, Outlet, Scripts } from '@tanstack/react-router';
-import { Layout, NotFound, PendingView } from '../components/Layout';
+import { Layout, PendingView } from '../components/Layout';
+import { NotFound } from '../components/NotFound';
 import stylesheet from '../styles.css?url';
 const themeScript = `try{const t=localStorage.getItem('portfolio-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch{}`;
 export const Route = createRootRoute({

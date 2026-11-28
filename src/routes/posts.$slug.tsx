@@ -1,9 +1,16 @@
-import { createFileRoute, Link, notFound } from '@tanstack/react-router';
+import { createFileRoute, Link, notFound, redirect } from '@tanstack/react-router';
+import retiredPostRedirects from '../../data/retired-post-redirects.json';
 import { posts } from '../lib/blog';
 import { getNoteBody } from '../lib/blog.functions';
+import { LikeButton } from '../components/LikeButton';
 import { formatDate, seo } from '../lib/site';
+const redirectTargets = new Map(Object.entries(retiredPostRedirects));
+
 export const Route = createFileRoute('/posts/$slug')({
   loader: async ({ params }) => {
+    const destination = redirectTargets.get(params.slug);
+    if (destination) throw redirect({ href: destination, statusCode: 308 });
+
     const post = posts.find((p) => p.slug === params.slug);
     if (!post) throw notFound();
     const html = await getNoteBody({ data: { slug: params.slug } });
@@ -36,6 +43,7 @@ function PostPage() {
       </header>
       {post.attribution && <p className="attribution">{post.attribution}</p>}
       <div className="prose" dangerouslySetInnerHTML={{ __html: html }} />
+      <LikeButton key={post.slug} kind="posts" slug={post.slug} />
     </article>
   );
 }

@@ -11,6 +11,6 @@ Built a card layout switcher (List, Card, Pack) that scales beautifully—even w
 
 Skipped animation libraries on purpose and went all in with vanilla CSS after ages. 😄
 
-It’s been a super fun 5-day ride—learned a lot and loved every bit of it. Big thanks to the [the community](/company/peerlist) team for the awesome challenge! 🙌
+It’s been a super fun 5-day ride—learned a lot and loved every bit of it. Big thanks to the challenge organizers for the awesome challenge! 🙌
 
 Checkout here: [https://peerlist-ui-animation-challenge.pages.dev/day-5](https://peerlist-ui-animation-challenge.pages.dev/day-5)

@@ -8,5 +8,21 @@
   "upload_source_maps": true,
   "observability": { "enabled": true, "head_sampling_rate": 1 },
   "workers_dev": true,
+  "durable_objects": {
+    "bindings": [{ "name": "CONTENT_REACTIONS", "class_name": "ContentReactions" }],
+  },
+  "migrations": [{ "tag": "content-reactions-v1", "new_sqlite_classes": ["ContentReactions"] }],
+  "ratelimits": [
+    {
+      "name": "LIKE_READ_LIMIT",
+      "namespace_id": "8284501",
+      "simple": { "limit": 90, "period": 60 },
+    },
+    {
+      "name": "LIKE_WRITE_LIMIT",
+      "namespace_id": "8284502",
+      "simple": { "limit": 12, "period": 60 },
+    },
+  ],
   "routes": [{ "pattern": "burhanbharmal.com", "custom_domain": true }],
 }

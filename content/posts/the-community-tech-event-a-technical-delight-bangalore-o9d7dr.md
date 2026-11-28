@@ -27,4 +27,4 @@ Akash Bhadange Yogini Bende, I missed a photo with you, but here's a moment we c
 
 _P.S. Can't wait for the next one!_ 😄
 
-CC: Alkshendra Maurya, [Pratyush Poddar](/wrick17), Rohan Shah, Vivek Galatage, Yogini Bende, Akash Bhadange
+CC: Alkshendra Maurya, Pratyush Poddar, Rohan Shah, Vivek Galatage, Yogini Bende, Akash Bhadange

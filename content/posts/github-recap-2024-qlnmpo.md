@@ -9,11 +9,11 @@ date: '2024-12-11'
 
 Here's a recap for this year 🤓
 
-Almost doubled the contribution compared to last 3 year's stats in [Sequoia](/company/sequoia) .
+Almost doubled the contribution compared to last 3 year's stats in [Sequoia](https://www.sequoia.com/).
 
 10th Apr was a crazy day 😂
 
-As always thanks, [the community](/company/peerlist) team for this recap and special thanks for dark mode. 🥳
+As always thanks, community team for this recap and special thanks for dark mode. 🥳
 
 PS: Just a heads-up: there's a mysterious gap between January and February as I was busy leveling up from "single player" to "multiplayer mode" with my wedding! 🥳💍
 

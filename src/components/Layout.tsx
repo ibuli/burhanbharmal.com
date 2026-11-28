@@ -1,4 +1,3 @@
-import { Link } from '@tanstack/react-router';
 import type { ReactNode } from 'react';
 import { SiteHeader } from './SiteHeader';
 import { SiteFooter } from './SiteFooter';
@@ -14,17 +13,6 @@ export function Layout({ children }: { children: ReactNode }) {
       </main>
       <SiteFooter />
     </>
-  );
-}
-export function NotFound() {
-  return (
-    <section className="wrap not-found">
-      <h1>Page not found.</h1>
-      <p>The page you’re looking for isn’t here.</p>
-      <Link className="button primary" to="/">
-        Back to work
-      </Link>
-    </section>
   );
 }
 export function PendingView() {

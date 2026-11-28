@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from '@tanstack/react-router';
 import { articles } from '../lib/blog';
 import { ArticleContinuation } from '../components/ArticleContinuation';
+import { LikeButton } from '../components/LikeButton';
 import { getPostBody } from '../lib/blog.functions';
 import { formatDate, seo, SITE_URL } from '../lib/site';
 export const Route = createFileRoute('/articles/$slug')({
@@ -67,6 +68,7 @@ function ArticlePage() {
         </nav>
       )}
       <div className="prose" dangerouslySetInnerHTML={{ __html: html }} />
+      <LikeButton key={article.slug} kind="articles" slug={article.slug} />
       <ArticleContinuation article={article} />
       <script
         type="application/ld+json"
